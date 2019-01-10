@@ -1,0 +1,99 @@
+* {
+    color: steelblue;
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+body {
+    background-image: url("fondo.png");
+}
+
+#titulo {
+    width: 70%;
+    height: 70px;
+    font-size: 300%;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    margin-top: .5em;
+    background-color: white;
+    border-radius: 30px 30px 30px 30px;
+    border: 5px solid black;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+header {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    display: block;
+    margin:auto;
+    margin-top: 1em;
+    font-size: 200%;
+    border-radius: 30px 30px 30px 30px;
+}
+
+header:hover {
+    background-color: lightblue;
+    transition: 1s;
+}
+
+#titulo:hover, #box:hover {
+    background-color: lightblue;
+    transition: 5s;
+}
+
+#box {
+    display: block;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px 30px 30px 30px;
+    border: 3px solid steelblue;
+}
+
+#box p:hover {
+    color: #2E64FE;
+}
+
+#AleyLuis1, #img1, #img2 {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#AleyLuis1:hover, #img1:hover, #img2:hover {
+    transition: 2s;
+    border-radius: 30px 30px 30px 30px;
+    border: 3px solid black;
+}
+
+a {
+    text-decoration: none;
+    margin: 1em;
+    font-size: 150%;
+    text-align: center;
+}
+
+#poema {
+    font-size: 200%;
+    color: black;
+    font-style: italic;
+}
+
+#box p {
+    line-height: 1.6;
+}
